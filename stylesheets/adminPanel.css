@@ -1,0 +1,450 @@
+body {
+	color:white;
+}
+
+#containerDroits {
+	display:flex;
+}
+
+#tableMenuAdmin {
+	border: 5px solid blue;
+	border-radius: 10px;
+}
+					
+.trMenuAdmin {
+	background-color:green;
+	padding:5px;
+}
+					
+.tdMenuAdmin {
+	width: 150px;
+	font-size: 20px;
+	padding: 10;
+	color: white;
+	background-color: #2E42EE;
+	border: 1px solid blue;
+	transition:0.25s ease-out 0.01s background-color;
+}
+
+.tdMenuAdmin:hover {
+	background-color:darkblue;
+}
+
+#tdMenuAdminDroits {
+	width:350px;
+}
+
+
+.boutonVoirDroitsMenuAdminListeUsers {
+	width:165px;
+	position:relative;
+	top:10px;
+	margin-right:20px;
+}
+
+#colDroitsMenuAdmin {
+	display:flex;
+	width:350px;
+}
+					
+#tab_users_titres td {
+	font-weight:bold;
+}
+
+.activer {
+	height:30px;
+	width:150px;
+}
+
+.boutonActiver {
+	margin-top:10px;
+}
+
+#lienRetour {
+	color:white;
+}
+
+#afficherInfos {
+	display:block;
+	min-width:80px;
+	max-width:80px;
+}
+
+#titreAfficherDroits {
+	border-bottom:solid white 1px;
+}
+
+#choisirRoleOuUserDroits {
+	display:flex;
+
+	
+}
+
+#menuDroitsDivSup {
+	padding:0px 20px 20px 20px;
+	width:1200px;
+	background-color:#050B46;
+	border: 5px solid blue;
+	border-radius:10px;
+}
+
+#submitShowDroits {
+	position:relative;
+	top:20px;
+	left:180px;
+
+}
+
+#login {
+	position:relative;
+	width:170px;
+	right:70px;
+}
+
+#labelLogin {
+	position:relative;
+	left:270px;
+	top:5px;
+}
+
+#labelRole {
+	position:relative;
+	top:5px;
+}
+
+#nomRole {
+	position:relative;
+	left:10px;
+	width:150px;
+}
+
+input[type=radio] {
+	width:30px;
+	height:30px;
+}
+
+#divRadioRole {
+	width:180px;
+}
+
+#divRadioUser {
+	position:relative;
+	left:260px;
+}
+
+.divRadio {
+	width:300px;
+	display:flex;
+	margin-top:40px;
+	border:1px solid white;
+	border-radius:10px;
+	padding:10px;
+	background:rgba(12,10,200,0.5);
+}
+
+#deuxRadios {
+	display:flex;
+}
+
+#formModifierDroits {
+	display:flex;
+}
+
+.affichageEtModifierDroits {
+	border:5px solid blue;
+	border-radius:10px;
+	width:1232px;
+	margin-top:30px;
+	padding:5px;
+	background-color:#050B46;
+}
+
+.affichageEtModifierDroitsH4 {
+	position:relative;
+	left:20px;
+	width:1200px;
+	border-bottom:1px solid white;
+}
+
+#droitChoisi {
+	width:300px;
+	position:relative;
+	left:20px;
+}
+
+.affichageEtModifierDroits input[type=radio] {
+	position:relative;
+	left:50px;
+}
+
+.affichageEtModifierDroits label {
+	position:relative;
+	left:90px;
+	top:5px;
+}
+
+h4 {
+	padding-bottom:10px;
+}
+
+#explicationDroits {
+	padding:10px;
+	border:2px white solid;
+	margin-left:30px;
+	width:500px;
+	font-size:20px;
+	background-color:#2E42EE;
+}
+
+#submitModifierDroits {
+	width:100px;
+	position:relative;
+	right:20px;
+
+}
+
+#valRetourApresModifDroit {
+	animation: 3s linear 0.1s infinite alternate changeColor;
+}
+
+@keyframes changeColor {
+	25% {
+		color:red;
+	}
+	50% {
+		color:red;
+	}
+	75% {
+		color:white;
+	}
+	100% {
+		color:white;
+	}
+}
+
+#changerLimites {
+	width:1233px;
+	padding:10px;
+	border:5px solid blue;
+	border-radius:10px;
+	background-color:#050B46;
+	transition:0.25s ease-out 0.01s border, 0.25s ease-out 0.01s background-color;
+}
+
+#changerLimites:hover {
+	border:5px solid cyan;
+	background-color:#09147B;
+}
+
+#infosChangementLimite {
+	position:relative;
+	left:20px;
+}
+
+#infosChangementLimite input {
+	width:100px;
+}
+
+#tempsChangerLimite label {
+	width:80px;
+	position:relative;
+	top:5px;
+}
+
+.divValeurLimite {
+	display:flex;
+	border: 1px solid white;
+	width: 200;
+	padding: 10px;
+	border-radius: 10px;
+	margin-top: 20px;
+	background:rgba(12,10,200,0.5);
+}
+
+#limiteChoisi {
+	height:30px;
+	width:250px;
+}
+
+#choixValeurLimite {
+	width:700px;
+}
+
+#valeurLimite {
+	position:relative;
+	right:80px;
+}
+
+#divInfini {
+	width:300px;
+	position:relative;
+	bottom:10px;
+	border:2px solid black;
+}
+
+#labelValeurLimite {
+	position:relative;
+	top:25px;
+}
+
+#labelInfini {
+	position:relative;
+	top:5px;
+}
+
+#labelSupprimerLimite {
+	position:relative;
+	top:5px;
+}
+
+.boutonsSecondaires {
+	border-radius: 5px;
+	box-shadow: grey 1px 1px 1px 1px, grey 1px 1px 1px 1px inset;
+	border:1px solid black;
+	padding:10;
+}
+
+#bannirQqn {
+	padding:10px;
+	background-color:#0A1257;
+	color:white;
+	border:5px solid darkblue;
+	border-radius:10px;
+	transition:0.25s ease-out 0.01s border, 0.25s ease-out 0.01s background-color;
+	width:900px;
+}
+
+#bannirQqn:hover {
+	border:5px solid cyan;
+	background-color:#2E42EE;
+}
+
+#bannirQqn input {
+	margin:0;
+}
+
+#listeBans {
+	margin-bottom:50px;
+	padding:10px;
+	border:1px solid white;
+	background:rgba(147,40,1,0.2);
+}
+
+#listeBans .boutonsSecondaires {
+	margin-top:20px;
+	margin-right:30px;
+}
+
+#listeBans td {
+	padding:10px;
+	border:1px solid darkred;
+	color:white;
+}
+
+.titresTr {
+	text-align:center;
+	font-weight:bold;
+}
+
+#listeFormules, #addNewFormule {
+	background-color:#061066;
+	padding:10px;
+	border:5px solid darkblue;
+	border-radius:5px;
+	color:white;	
+}
+
+#listeFormules {
+	width:1200px;
+
+}
+
+#addNewFormule {
+	width:800px;
+}
+
+#listeFormules table {
+	margin-top:20px;
+}
+
+#listeFormules button {
+	margin-top:10px;
+	margin-left:20px;
+}
+
+#listeFormules input[type=submit], #addNewFormule input {
+	margin:0;
+	padding:0;
+	margin-top:30px;
+	margin-left:20px;
+}
+
+#addNewFormule input[type=text] {
+	width:1000px;
+	position:relative;
+	right:310;
+}
+
+
+#listeFormules td {
+	padding:10px;
+	color:white;
+	border:1px solid black;
+}
+
+#addNewFormule div {
+	margin-bottom:20px;
+}
+
+#changerAnnonce {
+	padding:10px;
+	background-color:#0A1257;
+	color:white;
+	border:5px solid darkblue;
+	border-radius:10px;
+}
+
+#changerAnnonce div {
+	margin-bottom:10px;
+	margin-top:10px;
+	font-weight:bold;
+}
+
+#changerAnnonce input {
+	margin:0;
+	
+}
+
+#changerAnnonce input[type=submit] {
+	margin-top:15px;
+}
+
+#changerAnnonceTextArea {
+	font-family:Arial;
+	padding:10px;
+	margin-top:10px;
+	margin-bottom:30px;
+	outline:0;
+	border:2px solid blue;
+	border-radius:10px;
+	transition:0.25s ease-out 0.01s border;
+}
+
+#changerAnnonceTextArea:focus {
+	border:2px solid cyan;
+}
+
+#reglesBan {
+	padding:10px;
+	background-color:#0A1257;
+	color:white;
+	border:5px solid darkblue;
+	border-radius:10px;
+	transition:0.25s ease-out 0.01s border, 0.25s ease-out 0.01s background-color;
+	width:900;
+}
+
+#reglesBan:hover {
+	border:5px solid cyan;
+	background-color:#2E42EE;
+}

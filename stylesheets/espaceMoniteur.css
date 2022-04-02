@@ -1,0 +1,740 @@
+#div_formChercherEleves {
+	color:white;
+	width:700px;
+}
+
+#critereContainer {
+	display:flex;
+}
+
+#listeElevesTable td {
+	text-align:center;
+	font-size:20px;
+	padding:10px;
+	font-weight:bold;
+	
+}
+
+#lienTdListeEleves {
+	color:white;
+	transition:color 200ms ease-out 10ms;
+}
+
+#lienTdListeEleves:hover {
+	color:#28d5d5;
+}
+
+#listeElevesTable tr {
+	background-color:#2E42EE;
+	color:lightblue;
+
+}
+
+#div_formChercherEleves input[type=submit] {
+	width:400px;
+	position:relative;
+	right:150px;
+	margin-top:20px;
+
+}
+
+.tdListeEleves {
+	padding:0 10px 0 10px;
+
+}
+
+.div_criteres {
+	display:flex;
+	width:400px;
+	padding:5 0 10 0;
+	position:relative;
+	left:15px;
+}
+
+.div_criteres label {
+	position:relative;
+	top:5px;
+	width:200px;
+}
+
+.div_criteres input[type=text] {
+	position:relative;
+	right:70px;
+}
+
+.div_criteres input[type=checkbox] {
+	position:relative;
+	right:80px;
+}
+
+.div_critere_sup {
+	border:1px solid white;
+	padding:10px;
+	width:450px;
+	margin-right:25px;
+	background-color:#2E42EE;
+}
+
+.boutonVoirComp {
+	width:130px;
+	position:relative;
+	top:10px;
+}
+
+#trierComps {
+	display:flex;
+	padding:5px;
+	border:1px white solid;
+	width:1735px;
+	color:white;
+	height: 50px;
+	margin-bottom: 30px;
+	background-color:#2E42EE;
+}
+
+#checkboxTrierParProg {
+	position: relative;
+	right:80px;
+}
+
+#spanProg {
+	position: relative;
+	top: 15px;
+	right: 150px;
+}
+
+#trierParProg {
+	position: relative;
+	top: 10px;
+	right: 121px;
+}
+
+#checkboxTrierParMoniteur {
+	position: relative;
+	right: 140px;
+}
+
+#spanMoniteur {
+	position: relative;
+	top: 15px;
+	right: 215px;
+}
+
+#trierParMoniteur {
+	position: relative;
+	right: 185px;
+	top:10px;
+	height:30px;
+}
+
+#checkboxTrierParMaj {
+	position: relative;
+	right: 180px;
+}
+
+#spanMaj {
+	position: relative;
+	right: 250px;
+	width: 250px;
+	top: 15px;
+}
+
+#trierParMaj {
+	height: 30px;
+	position: relative;
+	top: 10px;
+	right: 250px;
+}
+
+#submitTrierComp {
+	position: relative;
+	right: 100px;
+}
+
+.listeCompetencesOuQcmEleve {
+	border: 2px solid white;
+	border-radius: 10px;
+	padding: 15px;
+}
+
+
+#formUpdateComps input[type=submit] {
+	margin-top:50px;
+	width:300px;
+}
+
+.tableTitres {
+	font-weight: bold;
+	text-align: center;
+}
+
+
+
+.listeCompetencesOuQcmEleve td {
+	padding:10px;
+	color:white;
+}
+
+
+
+#trierQcm {
+	display:flex;
+	padding:5px;
+	color:white;
+	height: 50px;
+}
+
+#trierDivSup {
+	color:white;
+	border:1px solid white;
+	padding:10px;
+	background-color:#2E42EE;
+}
+
+#trierParNoteQcm {
+	height: 30px;
+	position: relative;
+	top: 10px;
+	width: 150;
+	right: 60;
+}
+
+#trierQcm span {
+	position:relative;
+	top:15px;
+}
+
+#trierQcm input[type=date] {
+	width:120px;
+}
+
+
+#trierQcmNoteMaxMin {
+	position:relative;
+	right:30;
+	display:flex;
+}
+
+#chkSpanDate {
+	display:flex;
+	position:relative;
+	right:20px;
+}
+
+#chkTriNote {
+	width: 50;
+	position: relative;
+	right: 30;
+}
+
+#chkTriDate {
+	width:50;
+}
+
+#spanNote {
+	position:relative;
+	right:70;
+}
+
+#trierNoteMin, #trierNoteMax {
+	height:30px;
+	position:relative;
+	top:10px;
+	margin-left: 10;
+	margin-right: 10;
+}
+
+#trierQcm input[type=submit] {
+	width: 100;
+}
+
+#trierParNom {
+	display:flex;
+	width: 700;
+	margin-bottom: 10;
+}
+
+#chkTriNom {
+	width: 50;
+	position: relative;
+	right: 135;
+}
+
+#spanQCM {
+	position: relative;
+	right: 285;
+	top: 5;
+}	
+
+#trierParNomQcm {
+	width: 300;
+	position: relative;
+	right: 258;
+}
+
+
+#listeQcm {
+	width:1400px;
+}
+
+.selectNote {
+	width:90px;
+}
+
+#submitResultatsQcm {
+	width: 50;
+	position: relative;
+	top: 5;
+}
+
+#spanDateQcm {
+	position: relative;
+	left: 50px;
+	top: 5px;
+}
+
+#spanDateDeb, #spanDateFin {
+	margin-right:20px;
+	margin-left:10px;
+}
+
+#trierQcmDate {
+	display:flex;
+	position:relative;
+	left:20;
+}
+
+#submitNewQcm {
+	width:70px;
+}
+
+#h3addQcm {
+	position:relative;
+	top:35px;
+}
+
+#spanNoteQcm {
+	position: relative;
+	top: 5px;
+	left: 30px;
+}
+
+#titreRemarques {
+	width:1000px;
+}
+
+#retourListeEleves {
+	margin-top:40px;
+}
+
+#lienProfilMoniteurComps {
+	margin:0;
+}
+
+.inputComp {
+	width:900px;
+}
+
+.checkboxIdComp {
+	width:25px;
+}
+
+.selectEval {
+	height:30px;
+}
+
+
+
+.competence input {
+	margin-bottom:15px;
+}
+
+
+#updateCompsMsg {
+	margin-top:20px;
+}
+
+.fonctionsComps {
+	display:flex;
+}
+
+#boutonsCocher {
+	margin-top:20px;
+	margin-left:1450px;
+	width:350px;
+}
+
+#boutonsCocher button {
+	height:30px;
+}
+
+button {
+	padding-right:10px;
+	padding-left:10px;
+	margin-right:50px;
+}
+
+#appliquerProgToutesComps {
+	margin-top: 20px;
+	width: 1000px;
+	position: relative;
+	left: 15px;
+}
+
+#appliquerRemarqueToutesComps {
+	width: 1800px;
+	margin-top: 20px;
+	position:relative;
+	right:80px;
+}
+
+#evalMultiples {
+	margin-right:10px;
+}
+
+#remarqueToutesLesComps {
+	width:900px;
+	position:relative;
+	left:40px;
+}
+
+	
+
+#choisirUnQcm {
+	color:white;
+	width: 410;
+	padding: 10;
+	border: 1px solid white;
+	background-color:#2E42EE;
+}
+
+#choisirUnQcm select {
+	width: 400;
+	height: 30;
+}
+
+#reglementQcm {
+	width:800;
+	padding:10px;
+	border:1px solid white;
+}
+
+#choisirUnQcm input[type=submit] {
+	width: 80;
+	margin-top: 50;
+}
+
+#reglementQcm {
+	color:white;
+	background-color:#2E42EE;
+}
+
+.questionQcm {
+	padding: 10;
+	border: 5px solid #0028ff45;
+	border-radius:5px;
+	margin-top: 50;
+	color:white;
+	background-color:#061273;	
+}
+
+.questionQcm input[type=checkbox] {
+	margin:0;
+	width:50;
+}
+
+.divQuestionQcm {
+	display: flex;
+	margin-top: 30;
+}
+
+.nomQuestion {
+	font-weight: bold;
+	text-align:center;
+	font-size:20;
+}
+
+.labelReponseQcm {
+	position: relative;
+	top: 5;
+	left: 20;
+	font-weight:bold;
+}
+
+.bilanQcm {
+	color:white;
+}
+
+#questionQcmBilan {
+	width:1000px;
+}
+
+#timerDiv {
+	color:white;
+	padding:5px;
+	position:relative;
+	margin-left:500px;
+}
+
+#updateQcm {
+	margin:0;
+	margin-top:10px;
+}
+
+#destroyQcm {
+	margin:0;
+	margin-top:20px;
+}
+
+#createQcm {
+	width: 1000;
+	color: white;
+	padding: 30;
+	border: 4px solid blue;
+	border-radius:10px;
+	background-color:#2E42EE;
+	transition:0.25s ease-out 0.01s border;
+}
+
+#createQcm:hover {
+	border:4px solid darkblue;
+}
+
+#nomQcm {
+	display:flex;
+}
+
+#createQcmEtapeSuivante {
+	margin-top:20px;
+}
+
+#createQcm_nbQuestions {
+	margin-left:250px;
+}
+
+#createQcm span {
+	position:relative;
+	top:5px;
+	margin-right:15px;
+}
+
+.etape2_createQcm_inputs {
+	padding: 10px;
+	border: 5px solid darkblue;
+	margin-bottom: 20px;
+	margin-top: 50px;
+	border-radius: 10px;
+	background-color: #130a82;
+	transition:0.25s ease-out 0.01s border;
+}
+
+.etape2_creationQcm_inputs:hover {
+	border:5px solid cyan;
+}
+
+#trierReservations {
+	display:flex;
+	border:1px solid white;
+	color:white;
+	padding:10px;
+	background: rgba(46, 66, 238);
+}
+
+#legendeRes {
+	background:rgba(5, 57, 83, 0.2);
+	padding:10;
+	border:1px solid white;
+}
+
+#trierReservations input[type=radio] {
+	width:50;
+	margin:0;
+}
+
+#reservations {
+	padding:20px;
+}
+
+.reservationsTitres {
+	color:black;
+	font-weight:bold;
+	text-align:center;
+	padding:20px;
+	background-color:lightblue;
+}
+
+.horaires {
+	padding:20px;
+	background-color:lightblue;
+}
+
+.boutonReserver {
+	width:80px;
+	margin-top:10px;
+}
+
+.btnChangerSem {
+	font-weight:bold;
+	height:15px;
+	padding:5px;
+	margin-left:5px;
+	margin-right:5px;
+	border:2px solid white;
+	background-color:black;
+	transition:color 200ms ease-out 10ms, background-color 200ms ease-out 10ms;
+}
+
+.btnChangerSem:hover {
+	background-color:white;
+	color:black;
+}
+
+.spanEdt {
+	position:relative;
+	top:5px;
+}
+
+#listeComps, #addNewComp {
+	background-color:#061066;
+	padding:10px;
+	border:5px solid darkblue;
+	border-radius:5px;
+	color:white;	
+}
+
+#listeComps {
+	width:1200px;
+
+}
+
+#addNewComp {
+	width:800px;
+}
+
+#listeComps table {
+	margin-top:20px;
+}
+
+#listeComps button {
+	margin-top:10px;
+	margin-left:20px;
+}
+
+#listeComps input[type=submit], #addNewComp input {
+	margin:0;
+	padding:0;
+	margin-top:30px;
+	margin-left:20px;
+}
+
+#addNewComp input[type=text] {
+	width:1000px;
+	position:relative;
+	right:310;
+}
+
+
+#listeComps td {
+	padding:10px;
+	color:white;
+	border:1px solid black;
+}
+
+#allReservations td {
+	padding:10px;
+	color:white;
+	border:1px solid black;
+}
+
+#lesMoniteurs td {
+	padding:10px;
+	color:white;
+	border:1px solid black;
+}
+
+#allReservations {
+	padding:10px;
+	background-color:darkblue;
+	color:white;
+	border:5px solid blue;
+	transition:0.25s ease-out 0.01s border;
+	width:1330px;
+}
+
+#allReservations:hover {
+	border:5px solid cyan;
+}
+
+#demandesEnAttente {
+	margin-top:20px;
+	margin-bottom:20px;
+}
+
+#reports {
+	position:absolute;
+	opacity:0.0;
+	transition:0.25s ease-out 0.01s opacity;
+}
+
+.boutons {
+	border:1px solid black;
+	border-radius:5px;
+	box-shadow:1px 1px 1px 1px grey inset,1px 1px 1px 1px black;
+	padding:10px;
+	color:white;
+	background-color:black;
+	transition:0.25s ease-out 0.01s color,0.25s ease-out 0.01s background-color;
+	line-height:0;
+}
+
+.boutons:hover {
+	background-color:white;
+	color:black;
+}
+
+#quitReport {
+	position:relative;
+	left:60;
+	top:5;
+	height:30;
+	
+}
+
+#quitReport:hover {
+	color:black;
+	background-color:white;
+}
+
+#selectHeureReport {
+	margin-left: 65;
+	width: 130;
+	background-color: white;
+	border: 1px solid black;
+	height: 30;
+	border-radius: 10px;
+}
+
+#submitReport {
+	padding: 10;
+	width: 100;
+	margin-top: 50;
+	margin-left: 100;
+	height:40;
+}
+
+.boutonRep {
+	height: 30;
+	position: relative;
+	top: 10;
+	left: 60;
+}
+
+.divReport {
+	padding:10px;
+	background-color:lightblue;
+	color:darkgreen;
+	border:5px solid black;
+	border-radius:10px;
+	height:300px;
+	width:300px;
+}

@@ -1,0 +1,279 @@
+#redigerArticle {
+	color:white;
+	justify-content:center;
+	display:grid;
+	padding: 10;
+	border: 5px solid blue;
+	background-color: #08136f;
+	border-radius: 10px;
+	height:1600px;
+}
+
+#redigerArticle input {
+	margin:0;
+}
+
+#editor {
+	color:black;
+	height:700px;
+}
+
+#divTextArea {
+	width:1200px;
+	height:500px;
+	margin-bottom:300px;
+	color:black;
+}
+
+#droits {
+	display:flex;
+	border:3px solid white;
+	padding:10px;
+	width:1200px;
+}
+
+#droits input[type=checkbox] {
+	position:relative;
+	bottom:40;
+	left:20;
+}
+
+#redigerArticle input[type=submit] {
+	position: relative;
+	top: 30;
+	width: 1200;
+	height:50;
+	font-size: 18;
+}
+
+#titre {
+	position:relative; 
+	left:500; 
+	font-weight:bold; 
+	margin-bottom:20;
+}
+
+#category {
+	font-weight:bold;
+	position:relative;
+	left:580;
+	margin-top:20;
+}
+
+#catArticle {
+	position:relative;
+	left:520;
+	height:30;
+	margin-top:10;
+	margin-bottom:30;
+}
+
+#tableTitres {
+	font-weight:bold;
+}
+
+.boutonCocher {
+	padding:10; 
+	border-radius:5px; 
+	box-shadow: grey 1px 1px 1px 1px, grey 1px 1px 1px 1px inset; 
+	border:1px solid black;
+	height:40px;
+	margin-right:75px;
+}
+
+#tableCat td {
+	text-align:center;
+	padding:10px;
+	color:white;
+	border:1px solid grey;
+}
+
+#trierArticles {
+	color:white;
+	padding:10px;
+	border:1px solid white;
+	background-color:#2E42EE;
+}
+
+#trierArticles input {
+	margin:0;
+}
+
+#trierArticles p {
+	margin-right: 50;
+	position: relative;
+	bottom: 10;
+	left: 5;
+}
+
+#trierArticles input[type=checkbox], input[type=radio] {
+	width:50;
+}
+
+#trierArticles select {
+	height: 30;
+	position: relative;
+}
+
+#trierArticles div {
+	display:flex;
+	margin-bottom:10;
+}
+
+#listeArticles {
+	color:white;
+	border:1px solid white;
+	padding:10;
+	background:rgba(0, 231, 255, 0.2);
+}
+
+.boxListeArticles {
+	border:5px solid blue; 
+	padding:10px; 
+	color:white; 
+	margin:10;
+	background-color:#090588;
+	width:500px;
+	border-radius:10px;
+	transition:0.25s ease-out 0.01s border,0.25s ease-out 0.01s background-color;
+}
+
+.boxListeArticles:hover {
+	border:5px solid cyan;
+	background-color:#02003c;
+}
+
+#afficherArticle {
+	color:white;
+	padding:10px;
+	border:1px solid white;
+	margin-top:50px;
+	background-color:#08136f;
+}
+
+#corpsArticle {
+	color:black;
+	background-color:white;
+	padding:5px;
+	min-height:500px;
+	width:1400px;
+	position:relative;
+	left:200px;
+	margin-bottom:20px;
+	overflow-y:auto;
+	max-height:1000px;
+}
+
+#gererArt {
+	width:1000px;
+	margin-left:50;
+}
+
+#insererCom {
+	color:white;
+}
+
+.com {
+	padding:10;
+	border:5px solid blue;
+	border-radius:10px;
+	color:white;
+	width:600;
+	background-color:#2e42ee;
+	transition:0.25s ease-out 0.01s border;
+}
+
+.com:hover {
+	border:5px solid cyan;
+}
+
+.imgResources {
+	border:1px solid black;
+	border-radius:5px;
+	box-shadow: grey 1px 1px 1px 1px, grey 1px 1px 1px 1px inset;
+}
+
+#addNewCat {
+	padding:10; 
+	border:1px solid white; 
+	width:400; 
+	background-color:#2E42EE;
+}
+
+#signalement {
+	padding:10;
+	background:rgba(0, 135, 255, 0.19);
+	border:1px solid white;
+}
+
+#warningSignalement {
+	color:red;
+	background-color:black;
+	padding:10;
+	border:1px solid grey;
+	width:900;
+}
+
+.commentaireCache {
+	position:absolute;
+	right:0;
+	top:0;
+	opacity:0;
+	padding:10;
+	border:5px solid blue;
+	border-radius:10px;
+	color:white;
+	width:600;
+	background-color:#2e42ee;
+	transition:0.25s ease-out 0.01s border;
+}
+
+.commentaireCache:hover {
+	border:5px solid cyan;
+}
+
+
+#tableSignalements td {
+	padding:10;
+	color:white;
+	border:1px solid black;
+}
+
+#tableSignalements input[type=checkbox] {
+	width:50;
+	margin:0;
+}
+
+.trTitres {
+	font-weight:bold;
+}
+
+.boutonCacher {
+	width: 100;
+	height: 35;
+	margin-top: 40;
+}
+
+.boutonsToutCocherSignaler {
+	width:150;
+	height:35;
+	margin-right:30;
+	margin-top:30;
+}
+
+.divGererSignalement {
+	padding:10px;
+	border:1px solid white;
+	background:rgba(78, 40, 84, 0.6);
+}
+
+input[type=date] {
+	position:relative;
+	right:40;
+}
+
+.modifArt input[type=checkbox] {
+	position:relative;
+	left: 30;
+	bottom: 23;
+}

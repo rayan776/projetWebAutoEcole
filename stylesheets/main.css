@@ -1,0 +1,401 @@
+/* pour faire des dégradés:
+	background:linear-gradient(#1520A6,darkgreen);
+ 	border-image: linear-gradient(30deg, darkgreen, #1520A6) 1;
+ */
+
+body {
+	background-color:#000433;
+	font-family:Arial;
+}
+
+header {
+	background-color:#150034;
+	color:white;
+	padding:5px;
+	display:flex;
+	justify-content:left;
+}
+
+header h1 {
+	margin-left:300px;
+	position:relative;
+	top:15px;
+}
+
+footer h1 {
+	margin-right:500px;
+	position:relative;
+	top:15px;
+}
+
+footer {
+	margin-top:400px;
+	width:1800px;
+	background-color:#150034;
+	color:white;
+	padding:5px;
+	text-align:right;
+	display:flex;
+	justify-content:right;
+}
+
+.tdAlternate1 {
+	background-color:#2E42EE;
+}
+
+.tdAlternate2 {
+	background-color:#0D1C9D;
+}
+
+.logoDuSite {
+	width:300px;
+	height:100px;
+}
+
+.menu {
+	display:flex;
+ 	justify-content:center;
+ 	padding:20px 0 20px 0;
+	background-color:#2E42EE;
+ 	border-bottom-style: solid;
+ 	border-bottom-width: 1px;
+	border-image:linear-gradient(45deg, #0034ff, #056654, #98ffec, #056654, #0034ff) 1;
+	box-shadow:#00ffe7 1px 1px 1px 0px, #2E42EE 0px 0px 25px 0px;
+}
+
+.suggestions {
+	color:black;
+	width: 280px;
+	background-color:white;
+	border: 1px solid black;
+	border-radius: 5px;
+	margin-top: 5px;
+	margin: auto;
+	box-shadow: grey 1px 1px 1px 1px, grey 1px 1px 1px 1px inset;
+	text-align: center;
+	opacity:0.0;
+	transition:0.25s ease-out 0.01s opacity;
+	padding-top:10px;
+	padding-bottom:10px;
+	height:50;
+	overflow-y:scroll;
+}
+
+
+.infos_pwd {
+	color:white;
+	opacity:0; 
+	padding:30px;
+	border:5px solid blue;
+	border-radius:5px;
+	background-color:darkblue;
+	transition:0.25s ease-out 0.01s opacity;
+	width:400;
+	font-size:20;
+}
+
+
+.suggestionsDiv {
+	width:280px;
+}
+
+.suggestionsDiv:hover {
+	border:1px solid black;
+	background-color:#AFEEEE;
+	color:darkblue;
+	transition:0.25s ease-out 0.01s background-color,0.25s ease-out 0.01s color;	
+}
+
+.menu a {
+	font-size:16px;
+	min-width:100px;
+	font-weight:bold;
+}
+
+.textesEnTete {
+	color:white;
+}
+
+.boutonsForms {
+	color:white;
+	background-color:black;
+	transition:color 200ms ease-out 10ms, background-color 200ms ease-out 10ms;
+}
+
+.boutonsForms:hover {
+	color:black;
+	background-color:white;
+}
+
+.inputText:focus {
+  background-color: #AFEEEE;
+}
+
+
+a {
+	text-decoration:none;
+	color:white;
+	font-size:20;
+	padding:10px;
+	margin-right:40px;
+	text-align:center;
+	transition:color 200ms ease-out 10ms;
+}
+
+.lienVoirProfil {
+	padding:0 0 0 0;
+	margin:0 0 0 0;
+	color:white;
+	transition:color 200ms ease-out 10ms;
+}
+
+.lienVoirProfil:hover {
+	color:#29b6f6;
+}
+
+a:hover {
+	color:#29b6f6;
+}
+
+#entete {
+	font-size:30;
+	color:lightblue;
+	text-align:center;
+}
+
+h1 {
+	position:relative;
+	left:40px;
+}
+
+.formulaire {
+	background-color:#1324B5;
+	text-align:center;
+	margin-left:10px;
+	border:5px solid blue;
+	border-radius:5px;
+	padding:10px;
+	transition:0.25s ease-out 0.01s border, 0.25s ease-out 0.01s background-color;
+}
+
+.formulaire:hover {
+	border:5px solid darkblue;
+	background-color:#060E55;
+}
+
+#formulaireConnexion {
+	width:300px;
+	height:200px;
+}
+
+.formulaire label {
+	color:white;
+}
+
+.formulaire input {
+	display:block;
+	outline:0;
+	width:280px;
+	height:30px;
+	border:1px solid black;
+	border-radius:5px;
+	margin-top:5px;
+	box-shadow: grey 1px 1px 1px 1px, grey 1px 1px 1px 1px inset;
+}
+
+.valider {
+	position:relative;
+	top:10px;
+	background-color:black;
+	color:white;
+	padding:5px;
+	font-size:15;
+	transition:color 500ms ease-out 100ms, background-color 500ms ease-out 100ms;
+}
+
+.valider:hover {
+	background-color:white;
+	color:black;
+}
+
+.erreur li {
+		margin-bottom:10px;
+}
+
+.erreur {
+	width:400px;
+	background-color:lightblue;
+	padding:10px;
+	border:4px solid black;
+	font-weight:bold; 
+	font-size:15;
+	color:black;
+	margin-bottom:20px;
+} 
+
+
+
+.infosPerso {
+	padding:5px;
+	border:5px solid blue;
+	border-radius: 5px;
+	background-color:darkblue;
+	width:400px;
+	height:500px;
+	margin-top:40px;
+	transition:0.25s ease-out 0.01s border;
+	color:white;
+}
+
+.infosPerso:hover {
+	border:5px solid cyan;
+}
+
+.infosPerso label {
+	color:white;
+	position:relative;
+	left:80px;
+}
+
+.labelinput {
+	position:relative;
+	top:10px;
+	margin-bottom:25px;
+}
+
+#userActu {
+	padding:10px;
+	border:5px darkblue solid;
+	border-radius:5px;
+	width:400px;
+	margin-bottom:40px;
+	margin-top:20px;
+	position:relative;
+	left:650px;
+	color:white;
+	background-color:#2E42EE;
+	transition:0.25s ease-out 0.01s border;	
+}
+
+#userActu:hover {
+	border:5px cyan solid;
+}
+
+input {
+	display:block;
+	outline:0;
+	width:280px;
+	height:30px;
+	border:1px solid black;
+	border-radius:5px;
+	margin-top:5px;
+	margin:auto;
+	box-shadow: grey 1px 1px 1px 1px, grey 1px 1px 1px 1px inset;
+	text-align:center;
+}
+
+.boutonsSecondaires {
+	border-radius: 5px;
+	box-shadow: grey 1px 1px 1px 1px, grey 1px 1px 1px 1px inset;
+	border:1px solid black;
+	padding:10;
+}
+
+#formules {
+	color:white;
+}
+
+.formule {
+	padding:50px;
+	background-color:darkblue;
+	border:5px solid blue;
+	border-radius:15px;
+	margin-right:60px;
+	margin-bottom:20px;
+	transition:0.25s ease-out 0.01s border, 0.25s ease-out 0.01s color;
+}
+
+.formule:hover {
+	border:5px solid cyan;
+	color:orange;
+}
+
+#corpsFormule {
+	text-align:center;
+	color:white;
+}
+
+.titreFormule {
+	text-transform:uppercase;
+	font-size:30px;
+	margin-bottom:10;
+	font-weight:bold;
+}
+
+#presentation {
+	width:1050px;
+	padding:20px;
+	background-color:darkblue;
+	border:5px solid blue;
+	border-radius:20px;
+	font-size:25px;
+	transition:0.25s ease-out 0.01s border;
+}
+
+#presentation:hover, #quiSommesNous:hover {
+	border:5px solid cyan;
+}
+
+#quiSommesNous {
+	padding:20px;
+	background-color:darkblue;
+	color:white;
+	border:5px solid blue;
+	border-radius:10px;
+	margin-left:350px;
+	transition:0.25s ease-out 0.01s border;
+}
+
+.responsable {
+	margin-bottom:20px;
+}
+
+.respNom {
+	font-weight:bold;
+}
+
+#lastArticles {
+	padding:20px;
+	background-color:darkblue;
+	color:white;
+	border:5px solid blue;
+	border-radius:10px;
+	margin-left:290px;
+	margin-top:70px;
+	transition:0.25s ease-out 0.01s border;
+	width:310;
+}
+
+#lastArticle {
+	text-align:center;
+	border:1px solid white;
+	border-radius:5px;
+	background:rgba(72, 12, 34, 0.46);
+	padding:5px;
+	margin-top:25px;
+	margin-bottom:25px;
+}
+
+#lastArticle div {
+	margin-top:10px;
+	margin-bottom:10;
+}
+
+#lastArticles:hover {
+	border:5px solid cyan;
+}
+
+.imgQcm {
+	width:600px;
+	height:500px;
+}

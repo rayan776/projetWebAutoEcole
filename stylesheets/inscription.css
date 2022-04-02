@@ -1,0 +1,86 @@
+#formulaireInsc {
+	width:850px;
+	height:800px;
+}
+
+#superContainer {
+	display:flex;
+	width:800px;
+	height:700px;
+}
+
+#moniteurOuEleve {
+	display:flex;
+}
+
+#moniteurOuEleve .labelinput {
+	width:150px;
+}
+
+#moniteurOuEleve input {
+	width:50px;
+}
+
+#loginEtMdp {
+	border:2px solid black;
+	margin:5px;
+	width:300px;
+	height:630px;
+	padding:5px;
+}
+
+#infosPersoInscription {
+	position:relative;
+	top:5px;
+	left:90px;
+	padding:5px;
+	border:2px solid black;
+	width:400px;
+	height:630px;
+}
+
+.infosPerso input[type=text] {
+	position:relative;
+	left:50px;
+}
+
+#type {
+	color:white;
+	margin-top:10px;
+	border-top:2px solid black;
+	padding-top:10px;
+}
+
+#submit {
+	width:600px;
+	position:relative;
+}
+
+#nephNotice {
+	color:white;
+	font-size:12px;
+	position:relative;
+	bottom:10px;
+}
+
+#nephInput {
+	position:relative;
+	bottom:10px;
+}
+
+#infosPersosTitre {
+	color:white;
+}
+
+#infosPersos {
+	border-top:2px solid black;
+	margin-top:38px;
+}
+
+#infosPersosLoginMdp {
+	color:white;
+}
+
+#infosLoginMdp {
+	border-top:2px solid black;
+}
